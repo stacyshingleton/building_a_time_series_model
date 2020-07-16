@@ -19,6 +19,9 @@ Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the dat
 
 ![](images/temp_vs_time.png)
 
+![](images/temp_vs_time_monthly.png)
+
+![](images/temp_distribution.png)
 
 
 
@@ -32,8 +35,6 @@ Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the dat
 
 [Jupyter_Notebook: EDA](time_series.ipynb)
 
-[Summary_Slides](capstonePresentation.pdf)
 
-[Blog_Post 1](https://medium.com/@stacyshingleton/predicting-box-office-hits-d335e22d9c37)
+[Blog_Post, Part 1](https://medium.com/@stacyshingleton/predicting-box-office-hits-d335e22d9c37)
 
-[Blog_Post 2](https://medium.com/@stacyshingleton/predicting-box-office-hits-d335e22d9c37)
