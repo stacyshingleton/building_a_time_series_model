@@ -5,13 +5,19 @@
 
 ## Objectives
 
-Create a time series model using weather data from Jena, Germany that will allow the user to predict future weather trends. Such predictions could have a major impact on natural disasters, agricultural yield, renewable energy, or even global warming.  
+Create a time series model using weather data collected from Jena, Germany from 2009-2016, that will allow the user to predict future weather trends. Such predictions could have a major impact on natural disasters, agricultural yield, renewable energy, or even global warming. Once the model is built, it will be tested and evaluated against the 2019 weather data collected from Jena, Germany. 
 
 
 
 ## The Data
 
-Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the dataset contains eight years of weather data recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. The data contains weather data such as air pressure, air temperature, wind velocity, etc. The raw dataset has 420K+ values, with 15 columns. 
+The Training Data:
+
+Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the training dataset contains eight years of weather data, from 2009-2016, recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. The data contains weather data such as air pressure, air temperature, wind velocity, etc. The raw dataset has 420K+ values, with 15 columns.
+
+The Test Data:
+
+Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the training dataset, the test dataset contains one year of weather data, from 2019, recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. It contains the same data as the training set, with just over 50K values. 
 
 
 
@@ -22,6 +28,8 @@ Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the dat
 ![](images/temp_vs_time_monthly.png)
 
 ![](images/temp_distribution.png)
+
+![](images/temp_vs_time_2019.png)
 
 
 
@@ -36,5 +44,5 @@ Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the dat
 [Jupyter_Notebook: EDA](time_series.ipynb)
 
 
-[Blog_Post, Part 1](https://medium.com/@stacyshingleton/predicting-box-office-hits-d335e22d9c37)
+[Blog_Post, Part 1](https://medium.com/@stacyshingleton/building-a-time-series-model-part-1-c3a319c806d4)
 
