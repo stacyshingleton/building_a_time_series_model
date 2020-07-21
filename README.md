@@ -41,8 +41,9 @@ Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the
 ## Table of Contents
 
 
-[Jupyter_Notebook: EDA](time_series.ipynb)
+[Jupyter_Notebook: 2009-2016](time_series_2009_2016.ipynb)
 
+[Jupyter_Notebook: 2019](time_series_test_data_2019.ipynb)
 
 [Blog_Post, Part 1](https://medium.com/@stacyshingleton/building-a-time-series-model-part-1-c3a319c806d4)
 
