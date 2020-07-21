@@ -25,11 +25,29 @@ Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the
 
 ![](images/temp_vs_time.png)
 
-![](images/temp_vs_time_monthly.png)
-
 ![](images/temp_distribution.png)
 
-![](images/temp_vs_time_2019.png)
+### Down Sampling
+
+![](images/temp_vs_time_minute.png)
+
+![](images/temp_vs_time_daily.png)
+
+![](images/temp_vs_time_weekly.png)
+
+![](images/temp_vs_time_monthly.png)
+
+### Checking for Trends: Rolling Statistics
+
+![](images/temperature_rolling_statistics.png)
+
+### Eliminating Trends: DIfferencing
+
+![](images/temperature_differenced.png)
+
+### Decomposition
+
+![](images/temperature_decomposition.png)
 
 
 
