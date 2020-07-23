@@ -13,11 +13,11 @@ Create a time series model using weather data collected from Jena, Germany from 
 
 The Training Data:
 
-Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the training dataset contains eight years of weather data, from 2009-2016, recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. The data contains weather data such as air pressure, air temperature, wind velocity, etc. The raw dataset has 420K+ values, with 15 columns.
+Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the training dataset contains eight years of weather data, from 2009-2016, recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. The raw dataset has 420K+ values, with 15 columns, which has been narrowed down to the following features: temperature, air pressure, specific humidity, wind velocity.
 
 The Test Data:
 
-Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the training dataset, the test dataset contains one year of weather data, from 2019, recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. It contains the same data as the training set, with just over 50K values. 
+Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the training dataset, the test dataset contains one year of weather data, from 2019, recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. It contains the same data as the training set, with just over 50K values.
 
 
 
@@ -49,6 +49,13 @@ Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the
 
 ![](images/temperature_decomposition.png)
 
+### Autocorrelation
+
+![](images/temp_auto_corr.png)
+
+### Partial Autocorrelation
+
+![](images/temp_part_corr.png)
 
 
 ## Findings
