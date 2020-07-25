@@ -72,3 +72,7 @@ Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the
 
 [Blog_Post, Part 1](https://medium.com/@stacyshingleton/building-a-time-series-model-part-1-c3a319c806d4)
 
+[Blog_Post, Part 2](https://medium.com/@stacyshingleton/building-a-time-series-model-part-2-724448eb551d)
+
+
+
