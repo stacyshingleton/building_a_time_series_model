@@ -17,8 +17,7 @@ Collected from [kaggle.com](https://www.kaggle.com/kusuri/jena-climate), the tra
 
 The Test Data:
 
-Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the training dataset, the test dataset contains one year of weather data, from 2019, recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. It contains the same data as the training set, with just over 50K values.
-
+Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the training dataset, the test dataset contains weather data from the first 50 days of 2017, recorded from the Weather Station at the Max Planck Institute for Biogeochemistry in Jena, Germany. It contains the same data as the training set: temperature, air pressure, specific humidity, and wind velocity.
 
 
 ## Data Analysis
@@ -60,7 +59,7 @@ Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the
 
 ## Findings
 
-
+After
 
 
 ## Table of Contents
@@ -68,7 +67,7 @@ Collected from the [original source](https://www.bgc-jena.mpg.de/wetter/) of the
 
 [Jupyter_Notebook: 2009-2016](time_series_2009_2016.ipynb)
 
-[Jupyter_Notebook: 2019](time_series_test_data_2019.ipynb)
+[Jupyter_Notebook: 2017](time_series_test_data_2017.ipynb)
 
 [Blog_Post, Part 1](https://medium.com/@stacyshingleton/building-a-time-series-model-part-1-c3a319c806d4)
 
